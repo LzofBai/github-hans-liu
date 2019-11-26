@@ -1,15 +1,15 @@
 // ==UserScript==
-// @name         GitHub 汉化插件
+// @name         GitHub 汉化插件 (indiff)修改
 // @description  汉化 GitHub 界面的部分菜单及内容。
 // @copyright    2016, 楼教主 (http://www.52cik.com/)
-// @icon         https://assets-cdn.github.com/pinned-octocat.svg
+// @icon         https://github.githubassets.com/favicon.ico
 // @version      1.6.4
-// @author       楼教主
+// @author       indiff
 // @license      MIT
 // @homepageURL  https://github.com/52cik/github-hans
 // @match        http://*.github.com/*
 // @match        https://*.github.com/*
-// @require      https://52cik.github.io/github-hans/locals.js?v1.6.4
+// @require      https://raw.githubusercontent.com/indiff/github-hans/gh-pages/locals.js
 // @run-at       document-end
 // @grant        none
 // ==/UserScript==
