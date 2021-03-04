@@ -1,3 +1,4 @@
+> [qttabbar](https://github.com/indiff/qttabbar)
 # GitHub 汉化插件
 
 > 给像我这样英文渣渣同学的福利。
@@ -7,7 +8,7 @@
   [![GitHub forks][forks-image]][forks-url]
   [![license MIT][license-image]][license-url]
 
-> **2021-03-04 Github 更新，切换到github镜像
+> **2021-03-04 Github 更新，gitee js 切换到github镜像 ** 
 > **2017-03-19 GitHub 更新，导致之前版本无法正常使用，请大家及时升级。**  
 > **2016-04-18 GitHub 更新，导致之前版本无法正常使用，请大家及时升级。**
 
