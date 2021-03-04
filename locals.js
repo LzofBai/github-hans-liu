@@ -60,14 +60,83 @@ I18N.zh = {
             "Support": "支持",
             "Sign in": "登录",
             "Sign up": "注册",
-
             "Search GitHub": "GitHub 一下，你就知道",
             "This repository": "当前仓库",
             "Search": "搜索",
 
             "Pull Requests": "拉取请求",
             "Pull requests": "拉取请求",
+            ///////////////////////////////////// add by tyj 2019-12-06//////////////////
             "Issues": "问题",
+            "Code": "代码",
+            "Actions": "动作",
+            "Wiki": "维基",
+            "Projects": "项目",
+            "Insights": "指标",
+            "Options": "选项",
+            "Collaborators": "合作者",
+            "Branches": "分支",
+            "Webhooks": "Web钩子",
+            "Notifications": "通知",
+            "Integrations & Services": "集成和服务",
+            "Deploy keys": "部署密钥",
+            "Sercrets": "密钥",
+            "Sponsor": "赞助",
+            "Releases": "发行版",
+            "Packages": "软件包",
+            "Contributors": "投稿人",
+            "environments": "运行环境",
+            "Environments": "运行环境",
+            "Languages": "开发语言",
+            // "Branch:": "分支:",
+            "Sponsor this project": "赞助这个项目",
+            "Used by": "被使用",
+            "master": "主干",
+            "Tags": "标签",
+            "Go to file": "转到文件",
+            "Add file": "添加文件",
+            "No packages published": "未发布软件包",
+            "Publish your first package": "发布您的第一个软件包",
+            "Active": "活跃",
+
+
+            ///////////////////////////////////// add by tyj 2019-12-06//////////////////
+
+///////////////////////////////////// add by tyj 2021-01-28 start //////////////////
+
+            "Dashboard":"面板",
+            "Pull requests":"拉取请求",
+            "requests":"请求",
+            "Pull":"拉取",
+            "Repositories":"仓库",
+            "New":"新建",
+            "Search or jump to...":"搜索或者跳转到",
+            "Repositories":"存储库",
+            "Find a repository...":"查找存储库...",
+            "Find a team...":"查找团队...",
+            "Search or jump to...":"查找或者跳转到...",
+            "Show more":"显示更多",
+            "Your teams":"你的团队",
+            "Recent activity":"最近活动",
+            "All activity":"所有活动",
+            "Found open source from your organization":"从您的组织自资助开源",
+            "Explore Sponsors":"探索赞助商",
+            "Explore repositories":"浏览存储库",
+            "Explore more →":"浏览更多→",
+
+            "Event": "事件",
+            "Branch": "分支",
+            "Actor": "参与",
+            "All workflows": "所有工作流",
+            "New workflow": "新建工作流",
+            "Workflows": "工作流",
+
+            "starred" : "标星号",
+
+           
+ ///////////////////////////////////// add by tyj 2021-01-28 end //////////////////
+
+
             "Marketplace": "广场",
             "Gist": "代码片段",
             "Your dashboard": "返回首页",
@@ -88,6 +157,10 @@ I18N.zh = {
             "Your stars": "点赞的项目",
             "Your gists": "您的代码片段",
             "Explore": "探索",
+            "Discover": "发现",
+
+            "Topics": "主题",
+
             "Integrations": "集成",
             "Help": "帮助",
             "Settings": "设置",
@@ -118,6 +191,7 @@ I18N.zh = {
             "Privacy": "隐私",
             "Security": "安全",
             "Contact": "联系",
+            "Contact GitHub": "联系GitHub",
             "Status": "状态",
             "Training": "培训",
             "Shop": "商店",
@@ -199,11 +273,13 @@ I18N.zh = {
             /**
              * 相对时间格式处理
              */
-            [/just now|(an?|\d+) (second|minute|hour|day|month|year)s? ago/, function (m, d, t) {
+            [/last month|just now|(an?|\d+) (second|minute|hour|day|month|year)s? ago/, function (m, d, t) {
                 if (m === 'just now') {
                     return '刚刚';
                 }
-
+                if (m === 'last month') {
+                    return '上个月';
+                }
                 if (d[0] === 'a') {
                     d = '1';
                 } // a, an 修改为 1
