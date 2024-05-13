@@ -15,39 +15,15 @@
 
 ## 特性 (Features)
 
-1. 给像我这样英文渣渣同学的福利。
-2. 很多新手朋友不太会玩 GitHub，主要是全英文看的头晕眼花。
-3. 熟悉后关掉插件恢复英文模式，依然闭着眼睛都知道功能在哪。
-
-
-## 安装
-
-1. 请先安装 [Tampermonkey][1] 插件，支持 Chrome, Opera Next 和 Safari 浏览器。
-2. 然后再点击这个链接 [GitHub 汉化插件][2] 安装脚本即可。
-3. 刷新下页面，即可发现网站已汉化。
-
-> 目前仅支持 [Tampermonkey][1] 插件
->
-> 很多人打不开谷歌插件中心，我已经下载好放在了根目录下方便大家使用。  
-> 点击这里 [Tampermonkey_v4.2.7.crx][Tampermonkey] 分流下载插件。
-
-
-**PS: 最近 Tampermonkey 更新较大，可能无法打开插件地址，所以可以尝试如下方法手动安装脚本**  
-
-1. 下载 [Tampermonkey_v4.2.7.crx][Tampermonkey] 插件
-2. 在 chrome 里打开 chrome://extensions/ 这里地址(浏览器需登录，页面打开开发者模式开关)
-3. 把刚才下载到的 Tampermonkey_v4.2.7.crx 拖进去就好了
-4. 接着点浏览器右上角的插件图标，选择 “添加新脚本...”
-5. 然后将 https://github.com/52cik/github-hans/blob/gh-pages/main.js 源码复制进去
-6. 最后保存即可
+1. 使用需要，用来自我学习。
 
 
 ## 待办 (TODO)
 
-1. 添加 GitHub 名词解释，新手可能不太理解部分名词具体表达的意思，比如 `pull request`。
-2. 整理部分 git&github 学习资料, 帮助新手**更快**上手 git&github。
-3. **本人英文渣渣，翻译非常困难，急需大家 pr 共同翻译**
+1. 创建于2024年5月13日。
 
+## 学习计划
+1、计划中....
 
 ## 相关概念及资料文档
 
